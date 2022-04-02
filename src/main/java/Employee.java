@@ -22,4 +22,10 @@ public class Employee {
         return "Employee{id=" + id + ", firstName='" + firstName + "', lastName='"
                 + lastName + "', country='" + country + "', age=" + age + "}";
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        Employee emp = (Employee) obj;
+        return emp.id == this.id;
+    }
 }
