@@ -1,5 +1,5 @@
 import org.hamcrest.MatcherAssert;
-import org.junit.Test;
+import org.junit.jupiter.api.*;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 
